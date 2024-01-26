@@ -1,0 +1,10 @@
+/* Header.module.css */
+
+.image_header {
+    background-image: url("/images/navbar.jpg");
+    height: 60vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+  
