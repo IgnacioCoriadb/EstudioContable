@@ -19,9 +19,7 @@ export default function About() {
             En resumen, somos más que un equipo de profesionales; somos arquitectos de soluciones empresariales, constructores de relaciones duraderas y motores de crecimiento sostenido. Estamos aquí para hacer que su viaje empresarial sea más fluido, efectivo y exitoso. Confíe en nosotros para ser su socio confiable en el camino hacia el logro de sus metas y el impulso de su negocio hacia nuevos horizontes de éxito.
             </p>        
           </div>  
-          <div className="col-12 text-center"> 
-            {/* <img className={`card-img-top ${styles.image}`} src="/images/about.png" alt="Card image cap" /> */}
-          </div>  
+         
         </div>
       </div>
 
