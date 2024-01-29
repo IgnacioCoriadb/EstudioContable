@@ -5,6 +5,7 @@ import BootstrapClient from '../components/BootstrapClient';
 import Navbar from "../components/navbar/Navbar";
 import Header from "../components/header/Header";
 import Services from "../components/services/Services";
+import About from "../components/about/About";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,7 @@ export default function RootLayout({ children }) {
         <Navbar></Navbar>
         <Header></Header>
         <Services></Services>
+        <About></About>
         {children}
         <BootstrapClient></BootstrapClient>
         </body>
