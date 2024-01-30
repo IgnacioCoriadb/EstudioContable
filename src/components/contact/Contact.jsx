@@ -9,7 +9,7 @@ const handleSubmit =()=>{
 }
   return (
     <div>
-      <h2 className="text-center m-3">Contacto</h2>
+      <h2 className="text-center m-3" id="contact">Contacto</h2>
       <div className={`container ${styles.formContainer}`}>
         <div className='row'>
           <div className='col-md-8 offset-md-2 col-lg-6 offset-lg-3'>

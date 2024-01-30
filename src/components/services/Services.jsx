@@ -1,9 +1,12 @@
+"use client"
 import styles from "./Services.module.css";
+import { useEffect } from 'react';
 
 export default function Services() {
+
     return (
-      <div className="container mt-5 mb-5">
-        <h2 className="text-center m-3">Servicios</h2>
+      <div className={`container mt-5 mb-5`} id={"services"} >
+        <h2 className="text-center m-3" >Servicios</h2>
         <div className="card-group">
           <div className="card mx-3">
             <img className={`card-img-top ${styles.image}`} src="/images/impositivo.jpg" alt="Card image cap" />

@@ -2,9 +2,14 @@
 
 .image_header {
     background-image: url("/images/navbar.jpg");
-    height: 60vh;
+    height: 100vh;
     background-position: center;
     background-repeat:no-repeat;
     background-size: cover;
   }
   
+  @media (max-width: 767px) and (max-height: 1023px) {
+    .image_header {
+        height: 60vh;
+    }
+}

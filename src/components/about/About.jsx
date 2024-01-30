@@ -2,7 +2,7 @@ import styles from "./About.module.css";
 
 export default function About() {
   return (
-    <div className={`container-fluid ${styles.backgorund_container}`}>
+    <div className={`container-fluid ${styles.backgorund_container}`} id="about">
       <div className="container">
         <div className={`row align-items-stretch ${styles.aboutContainer}`}>
           <h2 className="text-center m-3">Quienes somos</h2>
