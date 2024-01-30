@@ -6,8 +6,8 @@ import Navbar from "../components/navbar/Navbar";
 import Header from "../components/header/Header";
 import Services from "../components/services/Services";
 import About from "../components/about/About";
-import Contact from "../components/contact/Contact"
-
+import Contact from "../components/contact/Contact";
+import Footer from "../components/footer/Fotter";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -24,6 +24,7 @@ export default function RootLayout({ children }) {
         <Services></Services>
         <About></About>
         <Contact></Contact>
+        <Footer></Footer>
         {children}
         <BootstrapClient></BootstrapClient>
         </body>
