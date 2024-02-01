@@ -47,6 +47,7 @@ export default function Footer() {
                         <i className="fab fa-whatsapp"></i>
                     </a>
                 </section>
+                <section className='text-white pt-3'>Lamadrid 1353</section>
             </div>
         </footer>
     );
